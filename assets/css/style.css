@@ -14,7 +14,6 @@
             height: 100px;
 
             padding: 60px;
-            padding-top: 
         }
 
         .buttons {
@@ -24,9 +23,10 @@
 .box {
     width: 960px;
 
+    padding: 60px;
     border: 2px #dddddd;
     border-style: solid;
-    padding: 60px;
+    margin-top: 60px;
 }
 
         .box h1 {
@@ -45,9 +45,9 @@
             font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
             color: #777777;
 
+            padding-top: 60px;
             border-top: 3px #dddddd;
             border-top-style: solid;
-            padding-top: 60px;
         }
 
 .footer {
