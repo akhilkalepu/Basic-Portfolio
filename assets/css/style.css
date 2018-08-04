@@ -10,15 +10,39 @@
             text-align: center;
 
             background-color: #4aaaa5;
-            width: 300px;
+            width: 400px;
             height: 100px;
 
-            padding: 60px;
+            padding-top: 60px;
+            
         }
 
         .buttons {
-            
+            float: right;
         }
+            
+            .link {
+                border: none;
+                background-color: transparent;
+            
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+                font-size: 20px;
+                color: #dddddd;
+        }
+
+                #l1 {
+                    border-right-style: solid;
+                    border-right: 5px #dddddd;
+                    margin: 5px;
+                }
+                #l2 {
+                    border-right-style: solid;
+                    border-right: 5px #dddddd;
+                    margin: 5px;
+        }
+                #l3 {
+                    margin: 5px;
+                }
 
 .box {
     width: 960px;
@@ -49,6 +73,27 @@
             border-top: 3px #dddddd;
             border-top-style: solid;
         }
+
+        .portfolio_link {
+            position: relative;
+            width: 100%;
+        }
+
+            .portfolio_link img {
+                
+            }
+
+            .portfolio_link .btn {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 16px;
+
+                background-color: #4aaaa5;
+                color: #ffffff;
+
+                border: none;
+                position: relative;
+                padding: 12px 24px;
+            }
 
 .footer {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
